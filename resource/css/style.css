@@ -1,6 +1,26 @@
-/* root */
+/* root and setup codes */
+:root{
+
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+}
 
 /* reusable code */
 
 /* clear */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
