@@ -16,9 +16,25 @@ body{
     text-rendering: optimizeLegibility;
 }
 
-/* reusable code */
-section{
 
+/* reusable code */
+header{
+   height: 400px;
+   position: relative;
+   background: url(../images/bg3.jpg) no-repeat center top; 
+   background-size: 100% 400px;
+   /* background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;   */
+     overflow: hidden; 
+     background-attachment: fixed;
+}
+
+section{
+    margin: 0 auto;
+    width: 80%;
 }
 
 h1,h2,h3,h4,h5,h6{
