@@ -12,13 +12,13 @@
 
 body{
     background-color: #ffffff;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-rendering: optimizeLegibility;
 }
 
 
 /* reusable code */
-header{
+header .banner{
    height: 400px;
    position: relative;
    background: url(../images/bg4.jpg) no-repeat center top; 
@@ -29,8 +29,29 @@ header{
     -o-background-size: cover;
     -ms-background-size: cover;   */
      overflow: hidden; 
-     background-attachment: fixed;
+     /* background-attachment: fixed; */
 }
+
+.nav_container{
+    height: 100px;
+}
+
+/* navigation */
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* logo */
+.logo{
+
+
+}
+
 
 section{
     margin: 0 auto;
@@ -61,5 +82,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* footer */
+
+
 
 
