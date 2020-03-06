@@ -1,6 +1,7 @@
 /* root and setup codes */
 :root{
- 
+    --btn-color: #c03;
+    --bg-color-one: #f4f4f4;
 }
 
 
@@ -33,11 +34,38 @@ header .banner{
 }
 
 .nav_container{
-    height: 100px;
+    height: 200px;
     border: 1px solid red;
 }
 
+/* top nav */
+.top_menu{
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid black; */
+  color: #ffffff;
+  background-color: var(--btn-color);
+  /* position: flex; */
+  padding: 10px 0px;
+}
+
+.top_menu ul li{
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
+.top_lists{
+    display: flex;
+    justify-content: space-between;
+
+}
+
 /* navigation */
+nav{
+    
+    float: right;
+}
+
 nav ul{
     border: 4px solid black;
     list-style: none;
@@ -54,16 +82,42 @@ nav ul li a{
     text-decoration: none;
 }
 
-/* logo */
-.logo{
 
+/* main nav */
+.main_menu{
+height: 120px;
+display: flex;
+border: 1px solid blue;
 
 }
 
+/* logo */
+.logo{
+    border: 4px solid black;
+    width: 70px;
+    height: 50%;
+/* display: inline; */
+}
+.logo img{
+    
+    height: 50px;
+    /* position: relative; */
+    /* background: url(../images/logo.png) no-repeat center top;  */
+    /* background-size: 100% 400px; */
+    /* background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;   */
+      /* overflow: hidden;  */
 
-section{
+}
+
+section,
+.top_lists,
+.main_menu{
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -79,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* container */
 .main_container{
-    border: 4px solid black;
+    border: 1px solid black;
     /* width: 100vw; */
     min-height: 100vh;
     display: block;
